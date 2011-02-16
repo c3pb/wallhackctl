@@ -1,0 +1,11 @@
+{% extends "template.html" %}
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+    <h1>Wallhack CTL</h1>
+	<ul>
+	{% for link in links %}
+	  <li>{{link}}</li>
+	{% endfor %}
+	</ul>
+{% endblock %}
